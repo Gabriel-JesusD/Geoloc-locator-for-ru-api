@@ -74,7 +74,7 @@ function App() {
           <div className='mt-5 m-auto w-50'>
             <p>Escolha o campus desejado:</p><p>(opção mais próxima definida)</p>
             <Select className='react-select' value={coord.current.value} options={coord.current} defaultValue={coord.current[bestCampusIdx]} onChange={getSelected} />
-            <button className='send-button' onClick={selectedMenu}> Testando </button>
+            <button className='send-button' onClick={selectedMenu}> Ver cardápio </button>
           </div>
           </div>
         )
